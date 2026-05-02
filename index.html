@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scoreboard Bot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="chat-box">
+    <h2>⚽ Scoreboard Generator</h2>
+
+    <form action="/generate" method="post" enctype="multipart/form-data">
+        <input name="team1" placeholder="Team 1" required>
+        <input name="team2" placeholder="Team 2" required>
+
+        <input name="score1" placeholder="Score 1" required>
+        <input name="score2" placeholder="Score 2" required>
+
+        <textarea name="scorers1" placeholder="Scorers Team 1"></textarea>
+        <textarea name="scorers2" placeholder="Scorers Team 2"></textarea>
+
+        <input type="file" name="background">
+
+        <button type="submit">Generate</button>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    background: #021;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
+
+.chat-box {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #111;
+    border-radius: 15px;
+}
+
+input, textarea {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #00ff99;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
